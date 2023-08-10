@@ -8,11 +8,6 @@ This repository contains a Python script that implements the Commentz-Walter alg
 
 The script can be executed with different options to control its behavior. The algorithm expects a list of search terms, a text file containing the input text, and an optional flag for printing additional information.
 
-python script.py <wordlist> -v <textfile>
-<wordlist>: The words you want to search for in the text.
--v or --vessel: (Optional) Print additional information about each substring.
-<textfile>: The name of the file containing the text to search in.
-
 
 ## How it Works
 
