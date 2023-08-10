@@ -8,11 +8,13 @@ This repository contains a Python script that implements the Commentz-Walter alg
 
 The script can be executed with different options to control its behavior. The algorithm expects a list of search terms, a text file containing the input text, and an optional flag for printing additional information.
 
-```shell
 python script.py <wordlist> -v <textfile>
 <wordlist>: The words you want to search for in the text.
 -v or --vessel: (Optional) Print additional information about each substring.
 <textfile>: The name of the file containing the text to search in.
+
+
+## How it Works
 
 The script implements the Commentz-Walter algorithm, a substring search algorithm. It reads the provided search terms and the input text, then constructs a trie data structure for efficient substring matching.
 
@@ -27,3 +29,7 @@ Depth Calculation: The depth of nodes in the trie is calculated for further calc
 Commentz-Walter Algorithm: The core algorithm iterates through the text while matching substrings using the trie and applying the sets and depth information.
 
 Printing Results: The algorithm prints the positions of found substrings.
+
+
+## Options and Output
+If you include the -v or --vessel flag, additional information about the sets and substrings will be printed.
